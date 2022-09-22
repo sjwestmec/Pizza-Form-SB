@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    
+<form>
+    <fieldset>
+        <legend>User Information</legend>
+        <p>
+            <label for="user">User Name:</label>
+            <input type="text" id="user" name="user">
+        </p>
+
+        <p>
+        <label for="password">Password:</label>
+        <input type="password" id="pass" name="password" minlength="8" required></p>
+       
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>What drink do you want?</legend>
+
+        <p>
+            <input type="radio" id="html" name="pref_drink" value="COKE">
+            <label for="coke">Coke</label><br>
+
+            <input type="radio" id="dietcoke" name="pref_drink" value="Diet Coke">
+            <label for="dietcoke">Diet Coke</label><br>
+
+            <input type="radio" id="sprite" name="pref_drink" value="Sprite">
+            <label for="sprite">Sprite</label><br>
+
+            <input type="radio" id="water" name="pref_drink" value="Water">
+            <label for="water">Water</label><br>
+        </p>
+
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>Pizza prefence?</legend>
+        
+        <p>
+            <input type="checkbox" id="pizza1" name="pizza1" value="plain">
+            <label for="pizza1"> Plain</label><br>
+
+            <input type="checkbox" id="pizza2" name="pizza2" value="peponi">
+            <label for="pizza2"> Pepperoni</label><br>
+
+            <input type="checkbox" id="pizza3" name="pizza3" value="Chick">
+            <label for="pizza3"> Chicken</label><br>
+
+            <input type="checkbox" id="pizza4" name="pizza4" value="Sausage">
+            <label for="pizza4"> Sausage</label><br>
+        </p>
+
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>Special Instructions?</legend>
+
+        <p>
+            <label for="body">Message:</label>
+            <textarea name="user.message" id="body" cols="30" rows="10"></textarea><br>
+            <button>submit</button>
+        </p>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
